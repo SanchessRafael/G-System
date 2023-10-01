@@ -1,0 +1,39 @@
+@media screen and (max-width: 500px) {
+    .container{
+        margin-top: 15vh;
+        padding: 3vh;
+    }
+    
+    .row{
+        display: flex;
+        border-radius: 4em;
+        background-color: whitesmoke;
+        padding: 30px;
+        gap: 3px;
+        box-shadow: 4px -8px 5px #cec5c5;
+    }
+    
+    .left-Login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+    }
+    .img{
+        height: 150px;
+    }
+    .text{
+        text-align: center;
+        font-size: 20px;
+        font-family: gothic;
+        font-weight: 200;
+        margin-top: 15px;
+    }
+
+
+    .rigth-Login{
+        height: max-content;
+        width: 20em;
+    }
+}
+
